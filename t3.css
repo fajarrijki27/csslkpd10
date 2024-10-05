@@ -1,0 +1,31 @@
+.satu {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: blue;
+  }
+  .dua {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+  }
+  .tiga {
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    color: black;
+  }
+  .empat {
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+  .lima {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+  }
+  .enam {
+    font-family: 'Tahoma', sans-serif;
+  }
+  

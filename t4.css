@@ -1,0 +1,59 @@
+table :hover{
+    background-color: orange;
+}
+
+.th1{
+    width: 20%;
+    color: white;
+    background-color: blue;
+    padding-left: 10px;
+}
+.th2{
+    width: 60%;
+    color: white;
+    background-color: blue;
+    padding-left: 10px;
+}
+.th3{
+    width: 20%;
+    color: white;
+    background-color: blue;
+    padding-left: 10px;
+}
+
+.td1{
+    width: 20%;
+    color: black;
+    background-color: rgb(150, 150, 164);
+    padding-left: 10px;
+}
+.td2{
+    width: 60%;
+    color: black;
+    background-color: rgb(150, 150, 164);
+    padding-left: 10px;
+}
+.td3{
+    width: 20%;
+    color: black;
+    background-color: rgb(150, 150, 164);
+    padding-left: 10px;
+}
+.td4{
+    width: 20%;
+    color: black;
+    background-color: white;
+    padding-left: 10px;
+}
+.td5{
+    width: 60%;
+    color: black;
+    background-color: white;
+    padding-left: 10px;
+}
+.td6{
+    width: 20%;
+    color: black;
+    background-color: white;
+    padding-left: 10px;
+}

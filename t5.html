@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lkpd 10</title>
+    <link rel="stylesheet" href="t5.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>FAJAR RIZQI FAUZAN</h1>
+        </div>
+        
+        <div class="main-content">
+            <div class="sidebar">
+                <h3>Menu</h3>
+                <a href="#" onclick="loadContent('t1.html')">Jawaban Tugas Individu 1</a>
+                <a href="#" onclick="loadContent('t2.html')">Jawaban Tugas Individu 2</a>
+                <a href="#" onclick="loadContent('t3.html')">Jawaban Tugas Individu 3</a>
+                <a href="#" onclick="loadContent('t4.html')">Jawaban Tugas Individu 4</a>
+            </div>
+        
+            <div class="content" id="content-frame">
+                Content goes here
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Copyright © FAJAR RIZQI</p>
+        </div>
+    </div>
+
+    <script>
+        function loadContent(page) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', page, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    document.getElementById('content-frame').innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
